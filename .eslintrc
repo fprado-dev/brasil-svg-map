@@ -1,7 +1,7 @@
 {
   "root": true,
   "parser": "babel-eslint",
-  "plugins": [/*'import', */ "jsx-a11y", "react"],
+  "plugins": ["jsx-a11y", "react"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -31,7 +31,6 @@
     }
   },
   "rules": {
-    // http://eslint.org/docs/rules/
     "array-callback-return": "warn",
     "camelcase": "warn",
     "curly": "warn",
@@ -155,7 +154,7 @@
         "ignore": []
       }
     ],
-    "react/jsx-sort-props": "warn",
+    "react/jsx-sort-props": "off",
     "react/jsx-tag-spacing": "warn",
     "react/jsx-uses-react": "warn",
     "react/jsx-uses-vars": "warn",
@@ -176,10 +175,9 @@
     "react/sort-prop-types": "warn",
     "react/style-prop-object": "warn",
     "react/void-dom-elements-no-children": "warn",
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
-    "jsx-a11y/aria-role": "warn",
-    "jsx-a11y/img-has-alt": "warn",
-    "jsx-a11y/img-redundant-alt": "warn",
-    "jsx-a11y/no-access-key": "warn"
+    "jsx-a11y/aria-role": "off",
+    "jsx-a11y/img-has-alt": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "jsx-a11y/no-access-key": "off"
   }
 }
