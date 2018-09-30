@@ -14,11 +14,11 @@
 
 > Features
 
-- Mouseover change Color of each city.
+- ~Mouseover change Color of each city~.
 - onClick Select City.
 - Tooltip for each city when hover.
 
 > Building
 
 - Use webpack to handle with production env.
-- adding css-modules or styled-componets to future styling.
+- adding css or styled-componets to future styling.
